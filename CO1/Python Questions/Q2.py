@@ -1,3 +1,5 @@
+#2.	Write a Python program to find the number of uppercase and lowercase letters in a given text.
+
 sentence = input("Enter the Sentence: ").replace(" ","")
 countOfCapital = 0
 countOfSmall = 0

@@ -1,3 +1,6 @@
+#7.	Write a Python program to implement the addition, subtraction, and multiplication of complex numbers using classes. 
+#Use constructors to create objects. The input to the program consist of real and imaginary parts of the complex numbers.
+
 class ComplexNumber:
     def __init__(self, realPart, complexPart):
         self.realPart = realPart

@@ -1,6 +1,8 @@
+#4.	Write a Python program to find the value for sin(x) up to n terms using the  series where x is in degrees.
+
 import math
-degree =  int(input("Enter the value of X:"))
-lengthofSeries =  int(input("Enter the length of the series:"))
+degree =  int(input("Enter the value of X: "))
+lengthofSeries =  int(input("Enter the length of the series: "))
 radian = degree * (math.pi/180)
 sum = 0
 

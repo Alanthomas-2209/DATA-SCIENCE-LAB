@@ -1,15 +1,19 @@
+# 9.	Given a file “mark.csv” of student data with the fields rollno, name, branch, m1, m2, m3,  write python code to
+# •	Print total marks of all students
+# •	Find the average mark of each subject
+# •	Find the student with highest and second highest mark.
+
+
 import csv
 
 total_marks = 0
 subject_sums = {'m1': 0, 'm2': 0, 'm3': 0}
-
-
 highest_mark = -1
 second_highest_mark = -1
 highest_mark_student = ''
 second_highest_mark_student = ''
 
-with open('D:\MCA\Third  Sem\Lab\DATA-SCIENCE-LAB\CO1\Python\mark.csv', mode='r') as file:
+with open('CO1\Python Questions\mark.csv', mode='r') as file:
     csv_reader = csv.DictReader(file)
     
     for row in csv_reader:

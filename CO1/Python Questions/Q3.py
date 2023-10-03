@@ -1,3 +1,5 @@
+#3.	Write a Python program to replace vowels with ‘*’ in the given text.
+
 sentence = input("Enter the Sentence: ")
 newSentence =""
 
