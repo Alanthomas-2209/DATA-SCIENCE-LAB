@@ -1,4 +1,4 @@
-# distance = sqrt((x2 - x1)^2 + (y2 - y1)^2)
+# 6.Calculate the Euclidean distance using NumPy
 
 import numpy as np
 
@@ -14,3 +14,5 @@ point2 = np.array([x2, y2])
 distance = np.linalg.norm(point2 - point1)
 
 print("Euclidean distance:", distance)
+
+# distance = sqrt((x2 - x1)^2 + (y2 - y1)^2)

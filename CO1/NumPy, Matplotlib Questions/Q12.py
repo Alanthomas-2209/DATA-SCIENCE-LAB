@@ -1,3 +1,5 @@
+# 12.Create a scatter plot with labeled data points, adjusting the colors and markers.
+
 import matplotlib.pyplot as plt
 
 data = [

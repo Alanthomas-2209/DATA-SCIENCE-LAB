@@ -1,3 +1,5 @@
+# 3.	Find the k smallest values of a NumPy array
+
 import numpy as np
 
 input_str = input("Enter elements of the array separated by spaces: ")

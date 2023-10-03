@@ -1,3 +1,5 @@
+# 9.Generate Random Numbers from the Uniform Distribution using NumPy
+
 import numpy as np
 
 low = float(input("Enter the lower bound of the uniform distribution: "))

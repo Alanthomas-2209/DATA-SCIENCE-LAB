@@ -1,3 +1,5 @@
+# 5.Find indices of elements equal to zero in a NumPy array
+
 import numpy as np
 
 input_str = input("Enter elements of the array separated by spaces: ")

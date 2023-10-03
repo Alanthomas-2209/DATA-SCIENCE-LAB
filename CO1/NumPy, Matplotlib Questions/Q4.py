@@ -1,3 +1,5 @@
+# 4.Calculate the sum of the diagonal elements of a NumPy array
+
 import numpy as np
 
 n = int(input("Enter the size of the square matrix: "))

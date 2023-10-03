@@ -1,7 +1,9 @@
+# c.	Calculate total sale data for last year for each product and show it using a Pie chart
+
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv(r'D:\MCA\Third  Sem\Lab\DATA-SCIENCE-LAB\CO1\NumPy, Matplotlib Questions\CompanySalesData.csv')
+df = pd.read_csv(r'CO1\NumPy, Matplotlib Questions\CompanySalesData.csv')
 
 last_year_sales = df.iloc[-12:, 1:7].sum()  
 

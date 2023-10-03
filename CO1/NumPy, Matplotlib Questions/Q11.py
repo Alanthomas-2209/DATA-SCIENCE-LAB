@@ -1,3 +1,5 @@
+# 11.	Write a program that uses Matplotlib to create a simple line plot of a set of data points
+
 import matplotlib.pyplot as plt
 
 x_str = input("Enter x-values (comma-separated): ")

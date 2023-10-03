@@ -1,3 +1,5 @@
+# 10.Simulate rolling a fair six-sided die 1000 times and count the occurrences of each number.
+
 import numpy as np
 from collections import Counter
 

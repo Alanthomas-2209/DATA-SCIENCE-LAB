@@ -1,4 +1,4 @@
-# 16.	Plot a complex number in Python using Matplotlib 
+# 16.Plot a complex number in Python using Matplotlib 
 
 import matplotlib.pyplot as plt
 

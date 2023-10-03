@@ -1,3 +1,5 @@
+# 8.Calculate the determinant and inverse of a square matrix using NumPy functions.
+
 import numpy as np
 
 n = int(input("Enter the size of the square matrix: "))

@@ -1,10 +1,10 @@
-# 15.	Load an image as a Mumpy array. Perform image manipulations such as cropping,resizing and color channel conversions. Visualize the original and modified images using Matplotlib.
+# 15.Load an image as a Mumpy array. Perform image manipulations such as cropping,resizing and color channel conversions. Visualize the original and modified images using Matplotlib.
 
 from PIL import Image
 import numpy as np
 import matplotlib.pyplot as plt
 
-image = Image.open(r'D:\MCA\Third  Sem\Lab\DATA-SCIENCE-LAB\CO1\NumPy, Matplotlib Questions\sample.jpg')
+image = Image.open(r'CO1\NumPy, Matplotlib Questions\sample.jpg')
 original_image = np.array(image)
 
 

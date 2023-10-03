@@ -1,3 +1,6 @@
+# 7.Create two NumPy arrays of the same shape and perform element-wise addition, subtraction, multiplication, 
+# and division operations on them.
+
 #with handling of division by zero
 import numpy as np
 

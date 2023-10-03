@@ -1,10 +1,10 @@
-# 14.	Load an image as a NumPy array and apply a grayscale filter to it.
+# 14.Load an image as a NumPy array and apply a grayscale filter to it.
 
 from PIL import Image
 import numpy as np
 import matplotlib.pyplot as plt
 
-image = Image.open(r'D:\MCA\Third  Sem\Lab\DATA-SCIENCE-LAB\CO1\NumPy, Matplotlib Questions\sample.jpg')
+image = Image.open(r'CO1\NumPy, Matplotlib Questions\sample.jpg')
 
 gray_image = image.convert('L')
 

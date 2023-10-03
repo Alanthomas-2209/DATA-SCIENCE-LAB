@@ -1,7 +1,10 @@
+# b.	Display the number of units sold per month for each product using multi- line plots. 
+# (i.e., Separate Plotline for each product ). 
+
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv(r'D:\MCA\Third  Sem\Lab\DATA-SCIENCE-LAB\CO1\NumPy, Matplotlib Questions\CompanySalesData.csv')
+df = pd.read_csv(r'CO1\NumPy, Matplotlib Questions\CompanySalesData.csv')
 
 line_styles = ['-', '--', '-.', ':', '-', '--']  
 colors = ['red', 'blue', 'green', 'purple', 'orange', 'pink']  
