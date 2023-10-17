@@ -1,4 +1,5 @@
-#1.	Write a Python program to reverse a number and also find the sum of digits of the number. Prompt the user for input.
+#1.Write a Python program to reverse a number and also find the sum of digits
+#  of the number. Prompt the user for input.
 
 number = int(input("Enter the number:"))
 sum = 0
